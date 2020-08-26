@@ -1,0 +1,74 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="@drawable/auth"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginTop="20dp"
+			android:padding="8dp"
+			android:text="Sign In to Grocery App"
+			android:textSize="20sp"
+			android:textColor="#000000"/>
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="15dp"
+			android:padding="8dp"
+			android:text="Enter Email &amp; Password to"
+			android:textSize="16sp"
+			android:textColor="#9E9E9E"/>
+		<EditText
+			android:id="@+id/edittext1"
+			android:layout_width="360dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="40dp"
+			android:padding="8dp"
+			android:textSize="18sp"
+			android:textColor="#000000"
+			android:hint="Email"
+			android:textColorHint="#607D8B"/>
+		<EditText
+			android:id="@+id/edittext2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="30dp"
+			android:padding="8dp"
+			android:textSize="18sp"
+			android:textColor="#000000"
+			android:hint="Password"
+			android:textColorHint="#607D8B"/>
+		<TextView
+			android:id="@+id/textview3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="32dp"
+			android:padding="8dp"
+			android:text="Forgot Password\? "
+			android:textSize="16sp"
+			android:textColor="#000000"/>
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="300dp"
+			android:layout_height="60dp"
+			android:padding="8dp"
+			android:background="#00E676"
+			android:text="SIGN IN"
+			android:textSize="18sp"
+			android:textColor="#FFFFFF"
+			android:layout_gravity="center_horizontal|center_vertical"/>
+	</LinearLayout>
+</LinearLayout>
